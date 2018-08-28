@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: Polls
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/logmein/organizerkeywebinarswebinarkeysessionssessionkeypolls-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/logmein/organizerkeywebinarswebinarkeysessionssessionkeypolls-get-openapi.md
+- name: GoToWebinar API - Get attendee poll answers
+  x-api-slug: organizerkeywebinarswebinarkeysessionssessionkeyattendeesregistrantkeypolls-get
+  description: Get attendee poll answers.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2W/rest/organizers
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/logmein/organizerkeywebinarswebinarkeysessionssessionkeyattendeesregistrantkeypolls-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/logmein/organizerkeywebinarswebinarkeysessionssessionkeyattendeesregistrantkeypolls-get-openapi.md
+- name: GoToWebinar API - Get attendee poll answers
+  x-api-slug: organizerkeywebinarswebinarkeysessionssessionkeyattendeesregistrantkeypolls-get
+  description: Get attendee poll answers.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2W/rest/organizers
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/logmein/organizerkeywebinarswebinarkeysessionssessionkeyattendeesregistrantkeypolls-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/logmein/organizerkeywebinarswebinarkeysessionssessionkeyattendeesregistrantkeypolls-get-openapi.md
 - name: GoToWebinar API - Get attendee poll answers
   x-api-slug: organizerkeywebinarswebinarkeysessionssessionkeyattendeesregistrantkeypolls-get
   description: Get attendee poll answers.

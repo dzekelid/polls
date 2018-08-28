@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Polls
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
@@ -675,6 +675,214 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/poll-sessionsopened-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/poll-sessionsopened-get-openapi.md
+- name: Instructure Canvas Polls API - List opened poll sessions
+  x-api-slug: poll-sessionsopened-get
+  description: List opened poll sessions.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/poll-sessionsopened-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/poll-sessionsopened-get-openapi.md
+- name: Instructure Canvas Polls API - List closed poll sessions
+  x-api-slug: poll-sessionsclosed-get
+  description: List closed poll sessions.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/poll-sessionsclosed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/poll-sessionsclosed-get-openapi.md
+- name: Instructure Canvas Polls API - Get a single poll submission
+  x-api-slug: pollspoll-idpoll-sessionspoll-session-idpoll-submissionsid-get
+  description: Get a single poll submission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionspoll-session-idpoll-submissionsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionspoll-session-idpoll-submissionsid-get-openapi.md
+- name: Instructure Canvas Polls API - Create a single poll submission
+  x-api-slug: pollspoll-idpoll-sessionspoll-session-idpoll-submissions-post
+  description: Create a single poll submission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionspoll-session-idpoll-submissions-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionspoll-session-idpoll-submissions-post-openapi.md
+- name: Instructure Canvas Polls API - Open a poll session
+  x-api-slug: pollspoll-idpoll-sessionsidopen-get
+  description: Open a poll session.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsidopen-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsidopen-get-openapi.md
+- name: Instructure Canvas Polls API - Close an opened poll session
+  x-api-slug: pollspoll-idpoll-sessionsidclose-get
+  description: Close an opened poll session.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsidclose-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsidclose-get-openapi.md
+- name: Instructure Canvas Polls API - Update a single poll session
+  x-api-slug: pollspoll-idpoll-sessionsid-put
+  description: Update a single poll session.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsid-put-openapi.md
+- name: Instructure Canvas Polls API - Get the results for a single poll session
+  x-api-slug: pollspoll-idpoll-sessionsid-get
+  description: Get the results for a single poll session.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsid-get-openapi.md
+- name: Instructure Canvas Polls API - Delete a poll session
+  x-api-slug: pollspoll-idpoll-sessionsid-delete
+  description: Delete a poll session.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessionsid-delete-openapi.md
+- name: Instructure Canvas Polls API - Create a single poll session
+  x-api-slug: pollspoll-idpoll-sessions-post
+  description: Create a single poll session.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessions-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessions-post-openapi.md
+- name: Instructure Canvas Polls API - List poll sessions for a poll
+  x-api-slug: pollspoll-idpoll-sessions-get
+  description: List poll sessions for a poll.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-sessions-get-openapi.md
+- name: Instructure Canvas Polls API - Update a single poll choice
+  x-api-slug: pollspoll-idpoll-choicesid-put
+  description: Update a single poll choice.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choicesid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choicesid-put-openapi.md
+- name: Instructure Canvas Polls API - Get a single poll choice
+  x-api-slug: pollspoll-idpoll-choicesid-get
+  description: Get a single poll choice.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choicesid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choicesid-get-openapi.md
+- name: Instructure Canvas Polls API - Delete a poll choice
+  x-api-slug: pollspoll-idpoll-choicesid-delete
+  description: Delete a poll choice.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choicesid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choicesid-delete-openapi.md
+- name: Instructure Canvas Polls API - Create a single poll choice
+  x-api-slug: pollspoll-idpoll-choices-post
+  description: Create a single poll choice.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choices-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choices-post-openapi.md
+- name: Instructure Canvas Polls API - List poll choices in a poll
+  x-api-slug: pollspoll-idpoll-choices-get
+  description: List poll choices in a poll.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choices-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/polls/master/_listings/instructure/pollspoll-idpoll-choices-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://instagram.api.gallery.streamdata.io

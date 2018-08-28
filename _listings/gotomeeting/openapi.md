@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: GoToMeeting
 x-complete: 1
@@ -19,4 +18,50 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /organizers/{organizerKey}/webinars/{webinarKey}/sessions/{sessionKey}/attendees/{registrantKey}/polls:
+    get:
+      summary: Get attendee poll answers
+      description: Get poll answers from a particular attendee of a specific webinar
+        session. For technical reasons, this call cannot be executed from this documentation.
+        Please use the curl command to execute it.
+      operationId: getAttendeePollAnswers
+      x-api-path-slug: organizersorganizerkeywebinarswebinarkeysessionssessionkeyattendeesregistrantkeypolls-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizers
+      - OrganizerKey
+      - Webinars
+      - WebinarKey
+      - Sessions
+      - SessionKey
+      - Attendees
+      - RegistrantKey
+      - Polls
+  /organizers/{organizerKey}/webinars/{webinarKey}/sessions/{sessionKey}/polls:
+    get:
+      summary: Get session polls
+      description: Retrieve all collated attendee questions and answers for polls
+        from a specific webinar session. For technical reasons, this call cannot be
+        executed from this documentation. Please use the curl command to execute it.
+      operationId: getPolls
+      x-api-path-slug: organizersorganizerkeywebinarswebinarkeysessionssessionkeypolls-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizers
+      - OrganizerKey
+      - Webinars
+      - WebinarKey
+      - Sessions
+      - SessionKey
+      - Polls
